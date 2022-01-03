@@ -1,4 +1,4 @@
-Hi there. I am currently working on a side [project, codename: Firehosesensing](https://github.com/somsubhro/firehosesensing) to see if we can build a better way to ingest AWS releases. This is not a AWS project and all work is my own.
+Hi there. I am currently working on a side [project](https://github.com/somsubhro/firehosesensing) to see if we can build a better way to ingest AWS release news. This is not a AWS project and all work is my own.
 
 I am `Technical Program Manager` within AWS Commerce Platform. My work brings me close to cost management, cost control, and cost analytics domains, as well close to bunch of cool, smart people. As a side gig, I often spend time with primitives of AWS, like IAM. I like to share my learnings of learning AWS/cloud. I share my takes in [linkedin](https://www.linkedin.com/in/somsubhrochatterjee/), [twitter](https://twitter.com/SomsubhroChatte). 
 
@@ -6,7 +6,7 @@ Currently, I am (re)learning to code.
 
 ### Struggles
 
-My struggles should make a longer list that my achievements or contributions. I struggled with `homebrew` on `zsh` shell. I struggled with exiting running processes from macOS terminal windows. I struggled with getting out of the `nano` prompt on terminal. 
+My struggles should make a longer list than my achievements or contributions. I struggled with `homebrew` on `zsh` shell. I struggled with exiting running processes from macOS terminals. I struggled with getting out of the `nano` prompt on terminal. I have struggled with (nearly wrestled with) getting Jekyll to work to publish static website on Github Pages (hence this). I still struggle with any kind of javascript. I struggled with finding the 🤷‍♂️ emoji. I struggle with the internet. But I am getting there, hang tight! 
 
 ### Contributions
 
