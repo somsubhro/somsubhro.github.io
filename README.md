@@ -19,3 +19,9 @@ My struggles should make a longer list than my achievements or contributions. I 
 
 When I am not having writer's block (mine should be more famous than that of [Fran's](https://www.theguardian.com/books/2021/aug/28/fran-lebowitz-if-people-disagree-with-me-so-what)) I publish my thoughts at [Medium](https://somchat.medium.com/) and sometimes tickle my funny bone at [Wordpress](https://scnotmycupoftea.wordpress.com/)
 
+```json
+{
+  "firstName": "Som"
+  "lastName": "Chatterjee"
+ }
+ ```
