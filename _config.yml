@@ -1,2 +1,4 @@
 theme: jekyll-theme-tactile
 title: My room in the big wide net
+kramdown:
+  syntax_highlighter: rouge
