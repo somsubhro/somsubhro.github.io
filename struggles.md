@@ -18,3 +18,7 @@ First, insert `DOCTYPE` before the `<head>` tag of the page if it is not existin
 #### CSS Validation service
 
 [Go here](http://jigsaw.w3.org/css-validator/)
+
+#### XHTML Validation service
+
+[Go here](https://validator.w3.org/)
