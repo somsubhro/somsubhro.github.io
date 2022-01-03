@@ -2,7 +2,7 @@ Hi there. I am currently working on a side [project](https://github.com/somsubhr
 
 I am currently a `Technical Program Manager` within AWS Commerce Platform. My work brings me close to cost management, cost control, and cost analytics domains, as well close to bunch of cool, smart people. As a side gig, I often spend time with primitives of AWS, like IAM. I like to share my learnings of learning AWS/cloud. I share my takes in [linkedin](https://www.linkedin.com/in/somsubhrochatterjee/), [twitter](https://twitter.com/SomsubhroChatte). 
 
-Currently, I am (re)learning to code.
+`I am (re)learning to code`
 
 ### Struggles
 
