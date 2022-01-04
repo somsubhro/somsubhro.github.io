@@ -8,7 +8,7 @@ Hi there,
 
 I am (re)learning to `code`
 
-My favorite .zshrc theme is `gnzh` when using default color space on macOS terminal.exe. If I am using Solarized color present on iTerm2, then my favorite theme is `agnoster`
+My favorite [oh my zsh](https://ohmyz.sh/) (.zshrc) theme is `gnzh` when using default color space on macOS terminal.exe. If I am using iTerm2, I use it with [solarized](https://github.com/altercation/solarized) color preset and `agnoster` theme 🥇
 
 ### Struggles
 
