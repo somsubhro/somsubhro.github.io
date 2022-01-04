@@ -8,6 +8,8 @@ Hi there,
 
 I am (re)learning to `code`
 
+My favorite .zshrc theme is `gnzh` when using default color space on macOS terminal.exe. If I am using Solarized color present on iTerm2, then my favorite theme is `agnoster`
+
 ### Struggles
 
 My struggles should make a longer list than my achievements or contributions. I struggled with `homebrew` on `zsh` shell. I struggled with exiting running processes from macOS terminals. I struggled with getting out of the `nano` prompt on terminal. I have struggled with (nearly wrestled with) getting Jekyll to work to publish static website on Github Pages (hence this). I still struggle with any kind of javascript. I struggled with finding the 🤷‍♂️ emoji. I struggle with the internet. But I am getting there, hang tight! 
