@@ -2,9 +2,9 @@
 
 
 Hi there, 
-[Jan-2022] I am currently working on a side [project](https://github.com/somsubhro/firehosesensing) to see if we can build a better way to ingest AWS release news. This is not a AWS project and all work is my own.
+[Jan-2022] I am working on a side [project](https://github.com/somsubhro/firehosesensing) to see if we can build a better way to ingest AWS release news. This is not a AWS project and all work is my own.
 
-[Overall] A `Technical Program Manager` within [AWS Commerce Platform](https://www.amazon.jobs/en/landing_pages/aws-commerce-platform). My work brings me close to cost management, cost control, and cost analytics domains, as well close to bunch of cool, smart people. As a side gig, I often spend time with primitives of AWS, like IAM. I like to share my learnings of learning AWS/cloud. I share my takes in [linkedin](https://www.linkedin.com/in/somsubhrochatterjee/), [twitter](https://twitter.com/SomsubhroChatte). 
+I am currently a `Technical Program Manager` within [AWS Commerce Platform](https://www.amazon.jobs/en/landing_pages/aws-commerce-platform). My work brings me close to cost management, cost control, and cost analytics domains, as well close to bunch of cool, smart people. I often spend time with primitives of AWS, like IAM. I like to share my learnings of learning AWS/cloud. I share my takes in [linkedin](https://www.linkedin.com/in/somsubhrochatterjee/), [twitter](https://twitter.com/SomsubhroChatte). 
 
 I am (re)learning to `code`
 
