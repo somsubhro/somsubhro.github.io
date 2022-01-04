@@ -1,6 +1,7 @@
 ---
 permalink: /struggles.html
 ---
+**[Home](/README.md) | [Struggles](/struggles.md)**
 
 #### XHTML syntax for inserting code blocks in XHTML based wikis as an example
 
