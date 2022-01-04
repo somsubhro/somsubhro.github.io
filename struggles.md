@@ -16,6 +16,13 @@ First, insert `DOCTYPE` before the `<head>` tag of the page if it is not existin
 </head>
 ```
 
+Next, wrap your text that you want to represent within code block with `<pre>... Your text ... </pre>` tags. That simple. Took me a whole day trying with `<code>`, `<samp>`, `<kbd>`
+
+<pre>
+  code block
+  code block
+</pre>
+
 #### CSS Validation service
 
 [Go here](http://jigsaw.w3.org/css-validator/)
