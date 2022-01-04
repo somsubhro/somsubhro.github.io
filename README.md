@@ -1,4 +1,4 @@
-**[Home](/README.md) | [Struggles](/struggles.md)**
+[Home](/README.md) | [Struggles](/struggles.md)
 
 
 Hi there, 
