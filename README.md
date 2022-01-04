@@ -1,3 +1,5 @@
+
+
 [Home](/README.md) | [Struggles](/struggles.md)
 
 
@@ -32,3 +34,5 @@ When I am not having writer's block (mine should be more famous than that of [Fr
  ```
  
  `# why am I suddenly writing this way? because I thought I could show off`
+ 
+ <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
