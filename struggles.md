@@ -5,11 +5,11 @@ permalink: /struggles.html
 
 #### S3 bucket names
 
-Just making sure, that we all understand this that: 
+Just making sure, that we all understand this that:👇 👇
 
 *"An Amazon S3 bucket name is globally unique, and the namespace is shared by **all AWS accounts**. This means that after a bucket is created, the name of that bucket cannot be used by another AWS account in any AWS Region until the bucket is deleted"* - From [this Buckets overview](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)
 
-This means `trial-bucket` is a name you cannot create a bucket with even if a bucket with that name does not exist in your account. `trial-bucket` has been used by some one, some where. Go ahead, give it a try.
+This means `trial-bucket` is a name you cannot create a bucket with, even if a bucket with that name does not exist in your account. `trial-bucket` has been used by some one, some where. Go ahead, give it a try. 🤯
 
 This is also why, if you are trying to create a s3 bucket, you may see this error message (or a version of it):
 `An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to.`
