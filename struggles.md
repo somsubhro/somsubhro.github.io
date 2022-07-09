@@ -51,7 +51,7 @@ Situation:
 
 High level steps: 
 * Definitely remove the ACL from the bucket in account `123456789012`
-* When setting up the Glue crawler, create a IAM role in account `456789012345` as below: 
+* Before setting up the Glue crawler, first prepare the cross account access role for Glue crawler in account `456789012345`. Do that by first creating an IAM policy in account `456789012345` as below: 
 
 ```
 {
@@ -71,3 +71,46 @@ High level steps:
 }
 ```
 `<prefix>` is the s3 bucket prefix, if you have specified any. I have used this to pull cost & usage data from CUR, hence a prefix was set in the CUR report definition.
+
+Then create a IAM role (e.g., `CrossAccountGlueAccessForS3`) which should include the policy created above plus `AWSGlueServiceRole` (arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole) managed policy. Add Glue in the Trust Relationship:
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "glue.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+```
+
+* Then set up your Glue crawler in account `456789012345` using this new role (`CrossAccountGlueAccessForS3`) that you have created. If unfamiliar, you can set up Glue crawler following the instructions [here](https://docs.aws.amazon.com/glue/latest/dg/console-crawlers.html)
+* Go back to account `123456789012`. Create a bucket policy including the below statement for the bucket (`arn:aws:s3:::source-data-bucket`) in question.
+
+```
+{
+    "Sid": "CrossAccountGlueAccess",
+    "Effect": "Allow",
+    "Principal": {
+        "AWS": [
+            "arn:aws:iam::456789012345:role/service-role/CrossAccountGlueAccessForS3",
+            "arn:aws:iam::456789012345:root"
+        ]
+    },
+    "Action": [
+        "s3:GetObject",
+        "s3:ListBucket"
+    ],
+    "Resource": [
+        "arn:aws:s3:::source-data-bucket",
+        "arn:aws:s3:::source-data-bucket/*"
+    ]
+}
+```
+
+I needed to only scope down the policy to using 2 s3 permissions - `GetObject` and `ListBucket`. It is upto you to specify what actions you will allow the role from account `456789012345` to perform.
