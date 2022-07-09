@@ -98,8 +98,7 @@ Then create a IAM role (e.g., `CrossAccountGlueAccessForS3`) which should includ
     "Effect": "Allow",
     "Principal": {
         "AWS": [
-            "arn:aws:iam::456789012345:role/service-role/CrossAccountGlueAccessForS3",
-            "arn:aws:iam::456789012345:root"
+            "arn:aws:iam::456789012345:role/service-role/CrossAccountGlueAccessForS3"
         ]
     },
     "Action": [
@@ -113,4 +112,4 @@ Then create a IAM role (e.g., `CrossAccountGlueAccessForS3`) which should includ
 }
 ```
 
-I needed to only scope down the policy to using 2 s3 permissions - `GetObject` and `ListBucket`. It is upto you to specify what actions you will allow the role from account `456789012345` to perform.
+I needed to only scope down the policy to using two s3 permissions - `GetObject` and `ListBucket`. It is upto you to specify what actions you will allow the role from account `456789012345` to perform.
