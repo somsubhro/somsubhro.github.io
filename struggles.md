@@ -3,7 +3,7 @@ permalink: /struggles.html
 ---
 [Home](/README.md) | [Struggles](/struggles.md)
 
-#### S3 bucket names
+## S3 bucket names
 
 Just making sure, that we all understand this that:👇 👇
 
@@ -14,7 +14,7 @@ This means `trial-bucket` is a name you cannot create a bucket with, even if a b
 This is also why, if you are trying to create a s3 bucket, you may see this error message (or a version of it):
 `An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to.`
 
-#### XHTML syntax for inserting code blocks in XHTML based wikis as an example
+## XHTML syntax for inserting code blocks in XHTML based wikis as an example
 
 First, insert `DOCTYPE` before the `<head>` tag of the page if it is not existing. This will ensure that the browser uses a strict formatting, and is backward compatible. Without the `DOCTYPE` browsers use [quirks](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode) mode (before web standards). I have used "strict" DTD. You can choose to use any one of the 3 available [DTDs](https://www.tutorialspoint.com/xhtml/xhtml_doctypes.htm)
 
@@ -33,15 +33,15 @@ Next, wrap your text that you want to represent within code block with `<pre>...
   code block
 </pre>
 
-#### CSS Validation service
+## CSS Validation service
 
 [Go here](http://jigsaw.w3.org/css-validator/)
 
-#### XHTML Validation service
+## XHTML Validation service
 
 [Go here](https://validator.w3.org/)
 
-#### Cross account access for Glue to S3
+## Cross account access for Glue to S3
 
 Prefer to use IAM role among the 2 available [AWS Glue methods to grant cross account access](https://docs.aws.amazon.com/glue/latest/dg/cross-account-access.html). This is because IAM roles will work across cross-partition accounts (i.e., cross account access between aws and aws-cn) whereas resource based policies cannot cross partitions. 
 
