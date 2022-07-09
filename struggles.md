@@ -47,8 +47,27 @@ Prefer to use IAM role among the 2 available [AWS Glue methods to grant cross ac
 
 Situation:
 * Account `123456789012` contains a s3 bucket (say, `arn:aws:s3:::source-data-bucket`) from which data needs to be pulled
-* Account `456789012345` contains a Glue crawler and catalog resources which will crawl and gather the data
+* Account `456789012345` contains a Glue crawler and catalog resources which will crawl and gather data
 
 High level steps: 
 * Definitely remove the ACL from the bucket in account `123456789012`
-* 
+* When setting up the Glue crawler, create a IAM role in account `456789012345` as below: 
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::source-data-bucket/<prefix>/*"
+            ]
+        }
+    ]
+}
+```
+`<prefix>` is the s3 bucket prefix, if you have specified any. I have used this to pull cost & usage data from CUR, hence a prefix was set in the CUR report definition.
