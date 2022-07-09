@@ -40,3 +40,15 @@ Next, wrap your text that you want to represent within code block with `<pre>...
 #### XHTML Validation service
 
 [Go here](https://validator.w3.org/)
+
+#### Cross account access for Glue to S3
+
+Prefer to use IAM role among the 2 available [AWS Glue methods to grant cross account access](https://docs.aws.amazon.com/glue/latest/dg/cross-account-access.html). This is because IAM roles will work across cross-partition accounts (i.e., cross account access between aws and aws-cn) whereas resource based policies cannot cross partitions. 
+
+Situation:
+* Account `123456789012` contains a s3 bucket (say, `arn:aws:s3:::source-data-bucket`) from which data needs to be pulled
+* Account `456789012345` contains a Glue crawler and catalog resources which will crawl and gather the data
+
+High level steps: 
+* Definitely remove the ACL from the bucket in account `123456789012`
+* 
