@@ -113,3 +113,7 @@ Then create a IAM role (e.g., `CrossAccountGlueAccessForS3`) which should includ
 ```
 
 I needed to only scope down the policy to using two s3 permissions - `GetObject` and `ListBucket`. It is upto you to specify what actions you will allow the role from account `456789012345` to perform.
+
+## To VSCode from PyCharm
+
+Just to quick note for self and those wandering souls - if you change a code file in VSCode you need to `save` it first before it can take effect - like in your `git status` or `cdk synth` (for AWS CDK) calls. In PyCharm, you don't need to. 
