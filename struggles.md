@@ -116,4 +116,4 @@ I needed to only scope down the policy to using two s3 permissions - `GetObject`
 
 ## To VSCode from PyCharm
 
-Just to quick note for self and those wandering souls - if you change a code file in VSCode you need to `save` it first before it can take effect - like in your `git status`, `cdk synth`, or `cdk diff` (for AWS CDK) calls. In PyCharm, you don't need to. 
+Just to quick note for self and those wandering souls - if you change a code file in VSCode you need to `save` it first before it can take effect - like in your `git status`, `cdk synth`, or `cdk diff` (for AWS CDK) calls. In PyCharm, you don't need to. Otherwise, ensure you enable Autosave in VSCode.
