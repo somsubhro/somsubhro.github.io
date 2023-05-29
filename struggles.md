@@ -121,3 +121,7 @@ Just to quick note for self and those wandering souls - if you change a code fil
 ## When running that TicTacToe tutorial
 
 Say you find yourself learning React using the [TicTacToe tutorial](https://react.dev/learn/tutorial-tic-tac-toe). You are at the step called [Setup for the tutorial](https://react.dev/learn/tutorial-tic-tac-toe#setup-for-the-tutorial). You do not want to use CodeSandbox as stated on the tutorial and want to run the tutorial in your local development server using your favorite IDE.  In **Notes** section of **Setup for the tutorial**, the missing step between 4 and 5 is `npm run build`. You may run into "React must be in scope when using JSX" error, follow bunch of fix steps (ESLint, importing React etc) without any avail. Run the build command to build your project and then run `npm start`.
+
+## Powerline-patched font
+
+In order for the Powerline-patched font to work correctly on your iTerm2, ensure that you check the option called `Use built-in Powerline glyphs` in the iTerm2 settings (Preferences -> Profile -> Text). The rest of the installation is [here](https://github.com/powerline/fonts)
