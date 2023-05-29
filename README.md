@@ -24,13 +24,3 @@ My struggles should make a longer list than my achievements or contributions. I 
 * [Transforming DevOps ar Broadridge on AWS](https://aws.amazon.com/blogs/devops/transforming-devops-for-a-fintech-on-aws/) 
 
 When I am not having writer's block (mine should be more famous than that of [Fran's](https://www.theguardian.com/books/2021/aug/28/fran-lebowitz-if-people-disagree-with-me-so-what)) I publish my thoughts at [Medium](https://somchat.medium.com/) and sometimes tickle my funny bone at [Wordpress](https://scnotmycupoftea.wordpress.com/)
-
-```json
-{
-  "firstName": "Som"
-  "lastName": "Chatterjee"
-}
- ```
- 
- `# why am I suddenly writing this way? because I thought I could show off`
- 
