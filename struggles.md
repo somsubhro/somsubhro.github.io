@@ -117,3 +117,7 @@ I needed to only scope down the policy to using two s3 permissions - `GetObject`
 ## To VSCode from PyCharm
 
 Just to quick note for self and those wandering souls - if you change a code file in VSCode you need to `save` it first before it can take effect - like in your `git status`, `cdk synth`, or `cdk diff` (for AWS CDK) calls. In PyCharm, you don't need to. Otherwise, ensure you enable Autosave in VSCode.
+
+## When running that TicTacToe tutorial
+
+Say you find yourself learning React using the [TicTacToe tutorial](https://react.dev/learn/tutorial-tic-tac-toe). You do not want to use the CodeSandBox as stated on the learning site and want to run the tutorial in your local development server using your favorite IDE. You are the step called [Setup for the tutorial](https://react.dev/learn/tutorial-tic-tac-toe#setup-for-the-tutorial). In the **Notes** section, the missing step between 4 and 5 is `npm run build`. You may run into "React must be in scope when using JSX" error, follow bunch of fix steps (ESLint, importing React etc) without any avail. 
