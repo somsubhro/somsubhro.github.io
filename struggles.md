@@ -125,3 +125,8 @@ Say you find yourself learning React using the [TicTacToe tutorial](https://reac
 ## Powerline-patched font
 
 In order for the Powerline-patched font to work correctly on your iTerm2, ensure that you check the option called `Use built-in Powerline glyphs` in the iTerm2 settings (Preferences -> Profile -> Text). The rest of the installation is [here](https://github.com/powerline/fonts)
+
+## CDK Bootstrap command when using a IAM Identity Center Profile
+
+Your most bening CDK bootstrap command is: `cdk bootstrap aws://<ACCOUNT ID>/<REGION`
+However, if you are using IAM Identity Center and have setup your [SSO credentials]() using a profile name (and not `default`), the command you need to issue for bootstrapping is: `cdk bootstrap --profile <PROFILE NAME> aws://<ACCOUNT ID>/<REGION`
