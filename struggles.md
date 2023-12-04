@@ -128,5 +128,5 @@ In order for the Powerline-patched font to work correctly on your iTerm2, ensure
 
 ## CDK Bootstrap command when using a IAM Identity Center Profile
 
-Your most bening CDK bootstrap command is: `cdk bootstrap aws://<ACCOUNT ID>/<REGION`
+Your most benign CDK bootstrap command is: `cdk bootstrap aws://<ACCOUNT ID>/<REGION`
 However, if you are using IAM Identity Center and have setup your [SSO credentials]() using a profile name (and not `default`), the command you need to issue for bootstrapping is: `cdk bootstrap --profile <PROFILE NAME> aws://<ACCOUNT ID>/<REGION`
