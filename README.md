@@ -5,7 +5,7 @@
 
 Hi there,
 
-I am currently a `Software Development Manager` within [AWS Commerce Platform](https://www.amazon.jobs/en/landing_pages/aws-commerce-platform). My work brings me close to cost management, cost control, and cost analytics domains, as well close to bunch of very smart people. I often spend time with primitives of AWS, like IAM. I like to share my learnings of learning AWS/cloud. I share my takes in [linkedin](https://www.linkedin.com/in/somsubhrochatterjee/). 
+I am currently a `Software Development Manager` within [AWS Commerce Platform](https://www.amazon.jobs/en/landing_pages/aws-commerce-platform). My team and I [launched](https://aws.amazon.com/about-aws/whats-new/2024/11/aws-pricing-calculator-estimates-purchase-commitments-discounts/) the new AWS Pricing Calculator (circa Nov 2024). My work brings me close to cost management, cost control, and cost analytics domains, as well close to bunch of very smart people. I often spend time with primitives of AWS, like IAM. I like to share my learnings of learning AWS/cloud. I share my takes in [linkedin](https://www.linkedin.com/in/somsubhrochatterjee/). 
 
 I am (re)learning to `code`
 
