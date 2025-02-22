@@ -5,7 +5,7 @@
 
 Hi there,
 
-I am currently a `Software Development Manager` within [AWS Commerce Platform](https://www.amazon.jobs/en/landing_pages/aws-commerce-platform). My team and I [launched](https://aws.amazon.com/about-aws/whats-new/2024/11/aws-pricing-calculator-estimates-purchase-commitments-discounts/) the new AWS Pricing Calculator (circa Nov 2024). My work brings me close to cost management, cost control, and cost analytics domains, as well close to bunch of very smart people. I often spend time with primitives of AWS, like IAM. I like to share my learnings of learning AWS/cloud. I share my takes in [linkedin](https://www.linkedin.com/in/somsubhrochatterjee/). 
+I am currently a `Software Development Manager` within [AWS Commerce Platform](https://www.amazon.jobs/en/landing_pages/aws-commerce-platform). My team and I [launched](https://aws.amazon.com/about-aws/whats-new/2024/11/aws-pricing-calculator-estimates-purchase-commitments-discounts/) the new AWS Pricing Calculator (circa Nov 2024). My work brings me close to cost management, cost control, and cost analytics domains, as well close to bunch of very smart people. I often spend time with primitives of AWS, like IAM. I like to share my learnings of learning AWS/cloud. 
 
 I am (re)learning to `code`
 
@@ -23,4 +23,4 @@ My struggles should make a longer list than my achievements or contributions. I 
 * [Building cloud fluency for everyone](https://acloudguru.com/blog/business/how-to-build-a-cloud-fluency-program-for-everyone)
 * [Transforming DevOps ar Broadridge on AWS](https://aws.amazon.com/blogs/devops/transforming-devops-for-a-fintech-on-aws/) 
 
-When I am not having writer's block (mine should be more famous than that of [Fran's](https://www.theguardian.com/books/2021/aug/28/fran-lebowitz-if-people-disagree-with-me-so-what)) I publish my thoughts at [Medium](https://somchat.medium.com/) and sometimes tickle my funny bone at [Wordpress](https://scnotmycupoftea.wordpress.com/)
+When I am not having writer's block (mine should be more famous than that of [Fran's](https://www.theguardian.com/books/2021/aug/28/fran-lebowitz-if-people-disagree-with-me-so-what)) I publish my thoughts at [Medium](https://somchat.medium.com/), [linkedin](https://www.linkedin.com/in/somsubhrochatterjee/), and sometimes tickle my funny bone at [Wordpress](https://scnotmycupoftea.wordpress.com/)
